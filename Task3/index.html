@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task3.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title" data-aos="zoom-out">Temprature Converter</h1>
+    <div class="units">
+        <div class="pannel">
+            <h1 class="bg-unit">°C</h1>
+            <h2>Celcius</h2>
+            <input type="number" id="celcius" value="0">
+        </div>
+        <div class="pannel">
+            <h1 class="bg-unit">°F</h1>
+            <h2>Faranhite</h2>
+            <input type="number" id="faranhite" value="0">
+        </div>
+        <div class="pannel">
+            <h1 class="bg-unit">K</h1>
+            <h2>Kelvin</h2>
+            <input type="number" id="kelvin" value="0">
+        </div>
+    </div>
+    <script src="task3.js"></script>
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 330,
+    duration: 800,
+  });
+</script>
+</html>
